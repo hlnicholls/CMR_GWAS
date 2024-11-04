@@ -8,13 +8,13 @@ library(stringr)
 rv <- read_excel('/PostGWAS/18_Pleiotropy/Output/RV_all_loci_in_LD_phenoscanner_output_R20.8.xlsx', sheet = 1)
 rv_mtag <- read_excel('/PostGWAS/21_MTAG_loci/18_Pleiotropy/Output/RV_mtag_all_loci_in_LD_phenoscanner_output_R20.8.xlsx')
 lv <- read_excel('/PostGWAS/18_Pleiotropy/Output/RV_all_loci_in_LD_phenoscanner_output_R20.8.xlsx', sheet = 1)
-lv_mtag <- read_excel('/raid/genetics/genetic_projects/Rare_variants/rare_variants/LV_GWAS/TOPmed_imputation/PostGWAS/21_MTAG_loci/18_Pleiotropy/Output/LV_mtag_all_loci_in_LD_phenoscanner_output_R20.8.xlsx')
+lv_mtag <- read_excel('/18_Pleiotropy/Output/LV_mtag_all_loci_in_LD_phenoscanner_output_R20.8.xlsx')
 
 df <- rbind(rv, lv, rv_mtag, lv_mtag)
 df <- as.data.frame(df)
 df <- unique(df)
 
-vars <- fread('/raid/genetics/genetic_projects/Rare_variants/rare_variants/LV_RV_shared_results/Output/Supplementary/supp_table7_10MAY24_single_and_multi_lv_rv_variants_annotated.csv')
+vars <- fread('/Output/Supplementary/supp_table7_10MAY24_single_and_multi_lv_rv_variants_annotated.csv')
 setnames(vars, 'CredibleSet_SNP_rsid', 'rsid')
 vars <- dplyr::select(vars, Phenotype, Locus_name, Locus_number, Lead_SNP, CredibleSet_SNP, rsid, Gene_Symbol, CHROM,  GENPOS,  BP38,    
                       BP37, MAF,    BETA,                      
