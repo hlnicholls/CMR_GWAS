@@ -1,8 +1,8 @@
 library(tidyverse)
 library(magrittr)
 
-plink_path <- "/raid/genetics/Software/plink1.9"
-plink2_path <- "/raid/genetics/Software/plink2"
+plink_path <- "/Software/plink1.9"
+plink2_path <- "/Software/plink2"
 
 file_path <- "/LV_GWAS/Regenie_step1/Input"
 
