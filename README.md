@@ -8,7 +8,7 @@
 
 Left and right ventricular (LV and RV) structure and function measured from cardiac magnetic resonance (CMR) imaging are essential for understanding complex cardiovascular diseases such as heart failure (HF). However, the genetic architecture of LV and RV phenotypes have not been comprehensively explored. 
 
-In this study, we systematically evaluated the genetic architecture of clinically relevant left and right ventricular imaging traits including novel LV functional parameters by leveraging the TOPMed imputed genotypes and whole exome sequencing (WES) data in up to 56,509 European UK Biobank individuals. Genome-wide association studies (GWAS) performed on 20 LV and RV structural and function traits discovered 200 loci, 59 of which are novel. 
+In this study, we systematically evaluated the genetic architecture of clinically relevant left and right ventricular imaging traits including novel LV functional parameters by leveraging the TOPMed imputed genotypes and whole exome sequencing (WES) data in up to 56,509 European UK Biobank individuals. Genome-wide association studies (GWAS) performed on 20 LV and RV structural and function traits discovered 200 loci, 58 of which are novel. 
 
 The repository provides the codebase for performing the GWAS and downstream gene prioritisation analyses.
 
