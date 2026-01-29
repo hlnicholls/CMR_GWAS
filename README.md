@@ -14,7 +14,7 @@ The repository provides the codebase for performing the GWAS and downstream gene
 
 ## Methods Overview
 
-![Study Design](docs/Study_Desgin.png)
+![Study Design](docs/Study_Design.png)
 
 
 ## Contact
