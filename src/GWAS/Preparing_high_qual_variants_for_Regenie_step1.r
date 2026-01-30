@@ -14,12 +14,12 @@ file_path <- "/LV_GWAS/Regenie_step1/Input"
 
 # Genotype files need to be GRCh38
 
-system(str_interp(paste("${plink2_path}/plink2_Jan23",
+system(str_interp(paste("${plink2_path}/plink2",
                         "--bfile /Input/all_chr_genotyped_keep_allele_order_GrCh38",
                         "--indep-pairwise 1000 50 0.4 ",
                         "--out ${file_path}/ukb-pruning")))
 
-system(str_interp(paste("${plink2_path}/plink2_Jan23",
+system(str_interp(paste("${plink2_path}/plink2",
                         "--bfile /Input/all_chr_genotyped_keep_allele_order_GrCh38",
                         "--extract ${file_path}/ukb-pruning.prune.in",
                         "--make-bed",
