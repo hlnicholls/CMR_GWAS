@@ -1,7 +1,7 @@
 [![R](https://img.shields.io/badge/-script-276DC3.svg?style=flat&logo=R)](https://cran.r-project.org)
 [![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![DOI](https://zenodo.org/badge/883026046.svg)](https://doi.org/10.5281/zenodo.18431576)
+[![DOI](https://zenodo.org/badge/883026046.svg)](https://doi.org/10.5281/zenodo.18431669)
 
 # Genome-wide analysis of cardiac ventricular phenotypes reveals novel loci and therapeutic targets for heart failure
 
